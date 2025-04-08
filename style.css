@@ -18,23 +18,34 @@ body{
 
 .box{
   background-color:  #31363b;
-  width: 350px;
+  width: 300px;
   position: relative;
   box-shadow: 5px 5px 30px grey;
-  margin-top: 50px;
-  margin-left: 50px;
+/* margin-top: 50px;
+margin-left: 50px; */
+  border-radius: 10px;
+  margin: 50px auto;
+  overflow: hidden
+
 }
 
 .foto{
   width: 100%;
+/* border-radius: 10px 10px 0 0; */
+}
+
+.head{
+  position: relative;
 }
 
 .logo{
   position: absolute;
   background-color:#b92e81 ;
   border-radius: 50%;
-  top: 33%;
-  right: 10%;
+  bottom: -20px;
+  right: 30px;
+  box-shadow: 1px 1px 5px black;
+
 }
 
 h1{
@@ -79,7 +90,6 @@ p{
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  border: 1px solid  #3f464d;
   color: #bdc3c7;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -91,6 +101,7 @@ p{
   position: absolute;
   right: 0;
   bottom: 0;
+  border-left: 1px solid  #3f464d;
 }
 
 .portfolio:hover{
